@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 WORKDIR /opt
 
+
 RUN \
     pip install --upgrade \
     matplotlib \
